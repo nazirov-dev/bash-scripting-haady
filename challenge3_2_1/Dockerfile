@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 RUN useradd -m -s /bin/bash challenge3_2_1 && \
-    echo "challenge3_2_1:challenge3_2_1" | chpasswd
+    echo "challenge3_2_1:haady" | chpasswd
 RUN echo "challenge3_2_1 ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 
 WORKDIR /home/challenge3_2_1
