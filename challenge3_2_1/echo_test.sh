@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # "echo.sh" faylini import qilish
-source ./echo.sh
+source /home/challenge3_2_1/challenge3_2_1/echo.sh
 
 # "testSetVariable" funksiyasi e'lon qilinmoqda
 testSetVariable() {

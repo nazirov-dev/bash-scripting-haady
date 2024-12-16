@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./division.sh
+source /home/challenge3_2_2/challenge3_2_2/division.sh
 
 
 testDivideTwoNum() {
