@@ -27,6 +27,7 @@ RUN chmod 700 /home/challenge3_2_2/challenge3_2_2/division_test.sh && \
     chown root:root /home/challenge3_2_2/challenge3_2_2/division_test.sh
 
 USER challenge3_2_2
+WORKDIR /home/challenge3_2_2/
 CMD ["/bin/bash"]
 
 
